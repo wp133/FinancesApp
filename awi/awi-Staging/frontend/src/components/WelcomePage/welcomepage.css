@@ -1,0 +1,97 @@
+@import "../css/nav_bar.css";
+
+.home-nav-welcomepage {
+  background: black;
+}
+
+.container-welcomepage {  
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(15, 236, 195, 0.14)),
+    url("../css/images/background2.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  height: 100vh;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/*TEKST*/
+#welcome-text-welcomepage {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  backdrop-filter: blur(1px);
+}
+
+/*header*/
+#welcome-text-welcomepage h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+}
+
+/*dalszy tekst*/
+#welcome-text-welcomepage p {
+  padding: 10px 25px;
+  text-decoration: none;
+  font-size: 15px;
+  display: inline-block;
+  color: #ebebebfc;
+  margin: 5px;
+}
+
+/*przyciski logowaniea i rejestracji*/
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 10px 60px;
+}
+
+.logowanie {
+  border: 4px solid #000000;
+  border-radius: 20px;
+  padding: 12px 30px;
+  font-size: 21px;
+  margin-right: 12px;
+  cursor: pointer;
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.066);
+}
+.logowanie:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.rejestracja {
+  border: 4px solid #ffffff;
+  border-radius: 20px;
+  padding: 12px 25px;
+  font-size: 21px;
+  margin-left: 12px;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.252);
+}
+
+.rejestracja:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.copyright {
+  padding: 5px;
+  position:absolute;
+  bottom:2px;
+}
